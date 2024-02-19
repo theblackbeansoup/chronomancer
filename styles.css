@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #E0E0E0; /* Light grey for text */
+}
+
+.centered {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.character {
+    background-color: rgba(38, 50, 56, 0.8); /* Darker panel background */
+    border: 2px solid #607D8B; /* Blue-grey border for a subtle contrast */
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    width: 200px; /* Fixed width for uniformity */
+}
+
+.remove-character {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #CFD8DC; /* Light blue-grey for the remove button */
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.character-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFC107; /* Amber color for names to stand out */
+    margin: 10px 0;
+}
+
+button {
+    background-color: #673AB7; /* Deep purple for buttons */
+    color: #FFF;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9575CD; /* Lighter purple on hover */
+}
+
+#timer-container {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark, semi-transparent background for timer */
+    border-radius: 5px;
+    color: #FFEB3B; /* Bright yellow for the timer, ensuring visibility */
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px; /* Additional margin for visual separation */
+}
+
+#timer {
+    font-size: 32px;
+    margin: 10px 0;
+}
